@@ -11,7 +11,7 @@ const ibmPlexSerif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Kharcha",
-  description: "Kharcha is a modern banking platform for everyone",
+  description: "Kharcha is a modern banking platform for everyone.",
   icons: {
     icon: "/icons/logo/svg",
   },
@@ -25,6 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.variable} ${ibmPlexSerif.variable}`}>
+        
         {children}
       </body>
     </html>
